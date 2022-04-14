@@ -1,0 +1,16 @@
+{
+    "BaseFolder": "",
+    "FileExtensions": [
+        {
+            "Extension": ".mp3"
+        },
+        {
+            "Extension": ".mp4"
+        },
+        {
+            "Extension": ".txt"
+        }
+    ],
+    "AlwaysMoveToSubDir": false,
+    "MaxDepth": 0
+}
