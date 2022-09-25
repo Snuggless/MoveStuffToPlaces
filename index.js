@@ -28,7 +28,7 @@ function Main(directory, depth){
     var fileArray =  extensions.GetFilesInDir(directory.BasePath);
     fileArray.forEach(element => {
         if(fileArray.length < 2 && extensions.GetConfig().AlwaysMoveToSubDir == false){
-            continue;
+            return;
         }
 
         let file = new classes.File(directory.BasePath, element.name);

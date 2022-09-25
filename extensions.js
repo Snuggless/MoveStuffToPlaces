@@ -32,7 +32,7 @@ function MakeDir(path){
 
 function MoveFile(file){
     fs.rename(file.FilePath(), file.NewPathToFile(), (e) => {
-        if(err){
+        if(e){
             classes.SystemLog.LogError(e);
             process.exit(1);
         }else{

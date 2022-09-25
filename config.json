@@ -1,5 +1,5 @@
 {
-    "BaseFolder": "",
+    "BaseFolder": "C:\\Users\\jamie\\Downloads\\MoveStuffToPlaces-main\\test",
     "FileExtensions": [
         {
             "Extension": ".mp3"
@@ -11,6 +11,6 @@
             "Extension": ".txt"
         }
     ],
-    "AlwaysMoveToSubDir": false,
+    "AlwaysMoveToSubDir": true,
     "MaxDepth": 0
 }
