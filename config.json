@@ -6,11 +6,8 @@
         },
         {
             "Extension": ".mp4"
-        },
-        {
-            "Extension": ".txt"
         }
     ],
-    "AlwaysMoveToSubDir": true,
+    "AlwaysMoveToSubDir": false,
     "MaxDepth": 0
 }
